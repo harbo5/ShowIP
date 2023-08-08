@@ -24,7 +24,7 @@ public class ShowIPCommand implements CommandExecutor {
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command cmd, @NotNull String label, String[] args) {
         if (args.length != 1) {
             sender.sendMessage(
-                    Component.text("Usage: /ipshow <username> - Shows the user their IP in an on screen message"));
+                    Component.text("Usage: /showip <username> - Shows the user their IP in an on screen message"));
         } else {
             try {
                 Player p = Bukkit.getPlayer(args[0]);
