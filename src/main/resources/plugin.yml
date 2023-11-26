@@ -1,7 +1,7 @@
 author: Harbo5
 main: dev.harbo.showip.ShowIP
 name: ShowIP
-version: 1.0.1
+version: 1.0.2
 api-version: 1.13
 commands:
   showip:
